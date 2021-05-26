@@ -4,3 +4,76 @@ body{
   padding: 0px;
   box-sizing: border-box;
 }
+
+/* Top Section Styling */
+
+.top-section{
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  color: white;
+  text-align: center;
+  background-size: cover;
+}
+
+.top-menu{
+  display: flex;
+  margin: auto;
+  padding: 20px;
+
+}
+
+.top-menu ul{
+  margin-left: auto;
+}
+
+.top-menu ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px 15px 10px 15px;
+}
+
+.top-section .content-holder{
+  text-align: left;
+  padding: 0px 40px 40px 10%;
+}
+
+.top-section .content{
+  padding: 10% 0px 10% 2px;
+}
+
+.top-section .content h1{
+  font-family: gd-sage,"Times New Roman",serif;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.top-section .content .search{
+  margin-top: 3%;
+  background-color: white;
+  display: flex;
+  width: 85%;
+}
+
+.top-section .content .search input{
+  width: 100%;
+  display: inline-block;
+  padding: 10px;
+  border: none;
+}
+
+.top-section .content .search a{
+  background-color: #00A4A6;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .top-section .content h1{
+    font-size: 3rem;
+  }
+  .top-menu ul{
+    display: none;
+  }
+}
