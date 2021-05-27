@@ -244,3 +244,15 @@ h1{
   text-decoration: none;
   color: #9ABAC3;
 }
+
+/* Footer nav */
+.footer-nav{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  color: white;
+}
+
+/* Filling color in GoDaddy Logo */
+.path-mobile, .path-desktop, .path-tm-desktop, .path-tm-mobile{
+  fill: #fff;
+}
