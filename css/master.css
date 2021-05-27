@@ -1,9 +1,16 @@
 body{
-
+  text-align: center;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
+
+/* Global Styling */
+h1{
+  font-family: gd-sage,"Times New Roman",serif;
+  font-weight: bolder;
+}
+
 
 /* Top Section Styling */
 
@@ -12,7 +19,6 @@ body{
   background-repeat: no-repeat, repeat;
   background-position: center;
   color: white;
-  text-align: center;
   background-size: cover;
 }
 
@@ -39,14 +45,12 @@ body{
 }
 
 .top-section .content{
-  padding: 10% 0px 10% 2px;
+  padding: 10% 0px 8% 2px;
   max-width: 800px;
 }
 
 .top-section .content h1{
-  font-family: gd-sage,"Times New Roman",serif;
   font-size: 4rem;
-  font-weight: bolder;
 }
 
 .top-section .content .search{
@@ -80,3 +84,82 @@ body{
 }
 
 /* Style For Main Content */
+
+/* Row and Cols arrangement */
+
+.main-content{
+  text-align: center;
+}
+
+.main-content .motive{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+  margin-bottom: 90px;
+}
+
+.features .row{
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features .row .col-item{
+  max-width: 500px;
+  display: inline-block;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features .row .col-item h5{
+  margin-bottom: 20px;
+}
+
+.features .row .col-item img{
+  width: 40%;
+}
+
+/*  carousel arrangement */
+.carousel_item{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+.carousel_item h5{
+  margin-bottom: 20px;
+}
+
+.carousel_item img{
+  width: 20%;
+}
+
+.carousel-indicators li{
+  color: black;
+  background-color: black;
+}
+
+@media (max-width: 930px) {
+  .row-arrangement{
+    display: none;
+  }
+
+  .carousel-arrangement{
+    display: block;
+  }
+}
+
+@media (min-width: 931px) {
+  .row-arrangement{
+    display: block;
+  }
+
+  .carousel-arrangement{
+    display: none;
+  }
+}
+
+/* Footer */
