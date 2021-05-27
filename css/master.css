@@ -89,14 +89,15 @@ h1{
 
 .main-content{
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .main-content .motive{
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 120px;
-  margin-bottom: 90px;
+  margin-top: 78px;
+  margin-bottom: 46px;
 }
 
 .features .row{
@@ -142,7 +143,7 @@ h1{
   background-color: black;
 }
 
-@media (max-width: 930px) {
+@media (max-width: 975px) {
   .row-arrangement{
     display: none;
   }
@@ -152,7 +153,7 @@ h1{
   }
 }
 
-@media (min-width: 931px) {
+@media (min-width: 974px) {
   .row-arrangement{
     display: block;
   }
@@ -163,3 +164,83 @@ h1{
 }
 
 /* Footer */
+.bottom-section{
+  background-color: #111111;
+}
+
+/* Frist Block */
+.support-strip{
+  background-color: #00A4A6;
+  color: white;
+}
+
+.support-strip p{
+  padding: 20px;
+  font-size: 22px;
+  margin: 0px;
+}
+
+/* Second Block */
+.guide {
+  font-size: 20px;
+  text-align: left;
+  padding: 40px 0px 40px 40px;
+}
+
+.guide p{
+  font-weight: bold;
+  color: #9ABAC3;
+}
+
+.guide img{
+  display: inline-block;
+}
+
+.guide .guides{
+  width: 40%;
+  max-width: 393px;
+}
+
+.guide .arrow{
+  width: 10%;
+  margin-left: 15px;
+  max-width: 98px;
+}
+
+/* Third Block */
+
+.footer-menu{
+  text-align: left;
+  color: white;
+  padding: 60px 20px 60px 60px;
+  border-bottom: 1px solid #9ABAC3;
+  border-top: 1px solid #9ABAC3;
+}
+
+.footer-menu .col-items{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  margin-bottom: 40px;
+}
+
+.footer-menu .col-items h5{
+  font-size: 18px;
+}
+
+.footer-menu ul{
+  list-style: none;
+  padding: 0px;
+}
+
+.footer-menu ul li{
+  margin: 10px 0px 10px 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+
+.footer-menu a{
+  text-decoration: none;
+  color: #9ABAC3;
+}
