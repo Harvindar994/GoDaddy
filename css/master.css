@@ -19,7 +19,7 @@ body{
 .top-menu{
   display: flex;
   margin: auto;
-  padding: 20px;
+  padding: 20px 40px 40px 40px;
 
 }
 
@@ -40,6 +40,7 @@ body{
 
 .top-section .content{
   padding: 10% 0px 10% 2px;
+  max-width: 800px;
 }
 
 .top-section .content h1{
@@ -77,3 +78,5 @@ body{
     display: none;
   }
 }
+
+/* Style For Main Content */
